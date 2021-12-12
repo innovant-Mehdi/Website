@@ -1,0 +1,15 @@
+.header-container {
+  display: flex;
+  background-color: #222222;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-list {
+  list-style: none;
+  display: flex;
+  height: 60px;
+  color: white;
+}
+.header-list > li {
+  margin: 25px;
+}
