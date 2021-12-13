@@ -13,6 +13,7 @@ import "../styles/home.css";
 import "../styles/input.css";
 import "../styles/auth.css";
 import "../styles/loginregister.css";
+import "../styles/loginform.css";
 
 function MyApp({ Component, pageProps }) {
   return (

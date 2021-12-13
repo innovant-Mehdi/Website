@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 
-export const LoginRegister = () => {
+export const LoginRegister = ({ setFlag }) => {
   return (
     <div className="loginregister-container">
-      <a className="loginregister-register-btn">
+      <a className="loginregister-register-btn" onClick={() => setFlag(true)}>
         <svg
           className="w-1 h-1"
           fill="currentColor"
@@ -16,7 +16,7 @@ export const LoginRegister = () => {
         <h6>Register</h6>
         <p>Browse and find what you need.</p>
       </a>
-      <a className="loginregister-login-btn">
+      <a className="loginregister-login-btn" onClick={() => setFlag(false)}>
         <svg
           className="w-6 h-6"
           fill="none"
