@@ -10,6 +10,9 @@ import "../styles/LoginHeader.css";
 import "../styles/logo.css";
 import "../styles/footer.css";
 import "../styles/home.css";
+import "../styles/input.css";
+import "../styles/auth.css";
+import "../styles/loginregister.css";
 
 function MyApp({ Component, pageProps }) {
   return (
