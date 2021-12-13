@@ -5,7 +5,7 @@ import { LoginRegister } from "../components/LoginRegister";
 
 const auth = () => {
   const [flag, setFlag] = useState(false);
-
+  const handleLogin = () => {};
   return (
     <div>
       <div className="login-container">
@@ -17,7 +17,7 @@ const auth = () => {
             <button className="login-btn">Submit</button>
           </>
         )}
-        {flag && <LoginForm />}
+        {flag && <LoginForm setFlag={setFlag} />}
       </div>
     </div>
   );
