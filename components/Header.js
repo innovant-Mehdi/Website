@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import { Logo } from "./Logo";
 export const Header = () => {
   return (
     <div className="header-container">
@@ -11,13 +12,16 @@ export const Header = () => {
       </Head>
       <ul className="header-list">
         <li>
-          <a>Home</a>
+          <Logo />
         </li>
         <li>
-          <a>About us</a>
+          <a href="#">Home</a>
         </li>
         <li>
-          <a>Contact us</a>
+          <a href="#">About us</a>
+        </li>
+        <li>
+          <a href="#">Contact us</a>
         </li>
       </ul>
       <i className="bi bi-person" style={{ color: "white" }}></i>

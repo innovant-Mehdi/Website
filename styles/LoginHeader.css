@@ -3,7 +3,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  height: 40px;
+  height: 30px;
 }
 .loginheader-container > a {
   color: black;
